@@ -63,7 +63,7 @@ if len(choice) >0:
 st.sidebar.header("Word Cloud")
 word_sentiment = st.sidebar.radio('Display word cloud for which sentiment?', ('positive', 'negative', 'neutral'))
 
-if not st.sidebar.checkbox("Close", True, key = '3'):
+if not st.sidebar.checkbox("WordCloud NO", False, key = '3'):
     st.header('Word cloud for %s sentiment' % (word_sentiment))
     df = data[data['airline_sentiment']==word_sentiment]
     words = ' '.join(df['text'])
