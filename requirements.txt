@@ -1,0 +1,6 @@
+pandas==0.25.1
+numpy
+streamlit==0.48.1
+plotly
+wordcloud
+matplotlib
