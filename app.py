@@ -12,7 +12,7 @@ st.markdown(" This application is a Streamlit app used to analyze the sentiment 
 st.sidebar.markdown(" This application is a Streamlit app used to analyze the sentiment of the tweets 🐦 about US airlines ✈️ ")
 
 
-DATA_URL = ("https://github.com/Frenz86/twitter_streamlit/blob/master/Tweets.csv")
+DATA_URL = ("https://raw.githubusercontent.com/Frenz86/twitter_streamlit/master/Tweets.csv")
 
 @st.cache(persist=True)
 def load_data():
